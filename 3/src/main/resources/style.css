@@ -1,0 +1,42 @@
+* {
+    margin  : 0;
+    padding : 0;
+}
+
+.main {
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+}
+
+.main > h1 {
+    margin : 20px;
+}
+
+.main > form > div {
+    display     : flex;
+    align-items : center;
+}
+
+.main > form > div > div {
+    border     : 1px solid black;
+    margin     : 1px;
+    width      : 100%;
+    height     : 25px;
+    padding    : 20px;
+    text-align : center;
+}
+
+.main > form input {
+    height : 25px;
+}
+
+.main > form label {
+    line-height : 25px;
+}
+
+.main > form button {
+    margin : 10px auto;
+    width  : 35%;
+    height : 50px;
+}
